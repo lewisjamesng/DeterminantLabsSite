@@ -50,7 +50,7 @@ export default function App() {
         <a href="#top" className="nav-logo">
           <span className="nav-logo__det">det</span>
           <span className="nav-logo__paren nav-logo__paren--l">(</span>
-          <span className="nav-logo__dot">·</span>
+          <span className="nav-logo__labs">labs</span>
           <span className="nav-logo__paren nav-logo__paren--r">)</span>
         </a>
         <ul className="nav-links">
@@ -72,8 +72,7 @@ export default function App() {
           </p>
 
           <h1 className="hero__title">
-            <span className="hero__word hero__word--1">DETER</span>
-            <span className="hero__word hero__word--2">MINANT</span>
+            <span className="hero__word hero__word--1">DETERMINANT</span>
             <span className="hero__word hero__word--3">
               <span className="hero__labs">LABS</span>
             </span>
@@ -214,7 +213,7 @@ export default function App() {
       {/* ── FOOTER ── */}
       <footer className="footer">
         <div className="section-container footer__layout">
-          <div className="footer__logo">det(·)</div>
+          <div className="footer__logo">det(labs)</div>
           <div className="footer__copy">
             © {new Date().getFullYear()} Determinant Labs. All rights reserved.
           </div>

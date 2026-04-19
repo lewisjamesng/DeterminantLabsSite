@@ -110,7 +110,7 @@
 }
 .nav-logo__det { color: var(--cream); }
 .nav-logo__paren { color: var(--cream-dim); }
-.nav-logo__dot { color: var(--acid); font-size: 18px; }
+.nav-logo__labs { color: var(--acid); }
 
 .nav-links {
   display: flex;
@@ -202,20 +202,13 @@
 }
 
 .hero__word--1 {
-  font-size: clamp(72px, 13vw, 176px);
+  font-size: clamp(52px, 9.5vw, 140px);
   color: var(--cream);
   animation-delay: 0.05s;
 }
 
-.hero__word--2 {
-  font-size: clamp(72px, 13vw, 176px);
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(240, 234, 216, 0.45);
-  animation-delay: 0.12s;
-}
-
 .hero__word--3 {
-  animation-delay: 0.19s;
+  animation-delay: 0.12s;
 }
 
 .hero__labs {
