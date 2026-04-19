@@ -94,14 +94,14 @@ export default function App() {
           <div className="matrix">
             <div className="matrix__bracket matrix__bracket--l"></div>
             <div className="matrix__cells">
-              <span className="matrix__val">a</span>
+              <span className="matrix__val">l</span>
               <span className="matrix__val">b</span>
-              <span className="matrix__val">c</span>
-              <span className="matrix__val">d</span>
+              <span className="matrix__val">s</span>
+              <span className="matrix__val">a</span>
             </div>
             <div className="matrix__bracket matrix__bracket--r"></div>
           </div>
-          <div className="matrix__label">det(A) = ad − bc</div>
+          <div className="matrix__label">det(A) = la − bs</div>
         </div>
 
         <div className="hero__scroll" aria-hidden="true">
